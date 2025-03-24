@@ -1,12 +1,25 @@
-# React + Vite
+# 🛍️ Firebase Auth Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+This project is an **Firebase Auth Dashboard** built with **React**, **Firebase Authentication**, and **React Router**. It includes authentication, an admin panel, and a user panel, along with a sidebar for navigation.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🔐 **Authentication**: Users can sign up, log in, and log out using Firebase Authentication.
+- 🛠 **Admin & User Panels**: Different views for admins and users.
+- 📊 **Dashboard**: Displays key metrics like total sales, orders, products, and customers.
+- 📌 **Navigation Sidebar**: Provides easy access to Dashboard, Orders, Products, and Profile pages.
+- 🚪 **Logout Functionality**: Secure logout with Firebase authentication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- ⚛️ **React**: Frontend framework
+- 🔥 **Firebase Authentication**: User authentication
+- 🚏 **React Router**: Navigation
+- 🎨 **Bootstrap & Pure CSS**: Styling
+- 🎭 **Lucide-React**: Icons
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Usage
+- ✍️ **Sign up** or **log in** with an email and password.
+- 🏠 **Navigate** using the sidebar.
+- 👑 **Admin users** ("admin@gmail.com") can access the **Admin Panel**.
+- 👤 **Regular users** will see the **User Panel**.
+- 🚪 Click **"Logout"** to securely log out.
